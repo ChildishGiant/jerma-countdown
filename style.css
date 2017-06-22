@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+
+html{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+
+  background: linear-gradient(319deg, #b43467, #47b9ce);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  -o-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 46%}
+      50%{background-position:100% 55%}
+      100%{background-position:0% 46%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 46%}
+      50%{background-position:100% 55%}
+      100%{background-position:0% 46%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:0% 46%}
+      50%{background-position:100% 55%}
+      100%{background-position:0% 46%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 46%}
+      50%{background-position:100% 55%}
+      100%{background-position:0% 46%}
+  }
+}
+
+#box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 3em;
+}
+
+a{
+  color:#ae2d65;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  border-bottom: 0.5vh solid transparent;
+}
+
+a:hover{
+  border-bottom: 0.5vh solid #6441A4;
+}
